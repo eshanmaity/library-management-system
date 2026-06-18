@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Book {
+public class Book{
 
     private int bookId;
     private String title;
@@ -46,8 +46,8 @@ public class Book {
     }
 
     @Override
-    public String toString() {
-
+   public String toString() {
+     
         String status;
 
         if(isBorrowed) {
@@ -55,7 +55,7 @@ public class Book {
         }
         else {
             status = "Available";
-        }
+        } 
 
         return "Book ID: " + bookId +
                "\nTitle: " + title +
